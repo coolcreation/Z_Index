@@ -1,0 +1,95 @@
+
+aside, article, section, header, footer, nav {
+	display: block;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background: #ccc;
+}
+body {
+	width: 700px;
+	background: #fff;
+	margin: 2em auto 2em;
+	font: 100% Arial, Helvetica, sans-serif;
+	padding: 25px;
+}
+div {  /* this is for the 3 blocks  */
+	margin-bottom: 25px;
+	width: 50px;
+	height: 50px;
+    padding: 25px;
+    border: 1px 
+    solid black
+}
+li {
+	font-size: 90%;
+}
+/*add styles here*/
+.container {
+	background: rgb(237,228,214);
+	padding: 25px;
+    height: 250px;
+    width: 600px;
+	/*position: relative;*/
+	margin: 25px 25px;
+	border: 1px solid black;
+}
+.element1 {
+	background: rgb(211, 206, 61);
+	position: relative;
+	left: 250px;
+	top: 20px;
+	margin-bottom: 24px;
+	z-index: 3;
+}
+.element2 {
+	background: rgb(85, 66, 54);
+	/*position: absolute;
+    left: 300px;
+    top: 50px; */
+	position: relative;
+	float:left;
+	margin-left: 196px;
+	z-index: 1;
+}
+.element3 {
+	background: rgb(247,120,37);
+   position: relative;
+    margin-left: 303px;
+	z-index: 3;
+}
+.container2 {
+	background: rgb(237,228,214);
+	padding: 25px;
+    height: 250px;
+    width: 600px;
+	/*position: relative;*/
+	margin: 25px 25px;
+	border: 1px solid black;
+}
+.element4 {
+	background: red;
+	position: relative;
+	left: 250px;
+	top: 20px;
+	margin-bottom: 10px;
+	z-index: 4;
+}
+.element5 {
+	background: blue;
+	position: relative;
+	float:left;
+	z-index: 5;
+	margin-left: 196px;
+}
+.element6 {
+	background: green;
+   position: relative;
+   margin-left: 290px;
+   margin-top: -12px;
+   z-index: 6;
+
+}
